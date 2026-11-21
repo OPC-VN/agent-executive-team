@@ -74,7 +74,7 @@ def test_python_floor_phrase_is_the_same_everywhere():
 def test_readme_names_both_install_sources_and_no_stale_remote_claim():
     text = _read(README)
     assert "chưa có remote" not in text.lower()
-    assert "ducnguyen221/agent-executive-team" in text
+    assert "OPC-VN/agent-executive-team" in text
     assert "chưa kiểm cài thật" in text
 
 

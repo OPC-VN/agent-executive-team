@@ -56,7 +56,7 @@ python -m pytest -q --cov=agent_executive_team --cov-report=term-missing --cov-f
 
 ## Cài
 
-Hai nguồn cài: (1) bản checkout cục bộ, `<gốc repo>` là thư mục chứa `README.md` này (Windows PowerShell 5.1 không mở `~` cho chương trình ngoài; dùng đường tuyệt đối trong dấu nháy kép); (2) repo GitHub public `ducnguyen221/agent-executive-team`. Các lệnh bên dưới viết cho nguồn cục bộ; với GitHub thay `<gốc repo>` bằng `ducnguyen221/agent-executive-team`.
+Hai nguồn cài: (1) bản checkout cục bộ, `<gốc repo>` là thư mục chứa `README.md` này (Windows PowerShell 5.1 không mở `~` cho chương trình ngoài; dùng đường tuyệt đối trong dấu nháy kép); (2) repo GitHub public `OPC-VN/agent-executive-team`. Các lệnh bên dưới viết cho nguồn cục bộ; với GitHub thay `<gốc repo>` bằng `OPC-VN/agent-executive-team`.
 
 **Claude Code** (terminal, IDE, tab Code của ứng dụng Claude). Trong phiên gõ `/plugin marketplace add <gốc repo>` rồi `/plugin install agent-executive-team@agent-executive-team`; hoặc từ shell:
 
@@ -65,7 +65,7 @@ claude plugin marketplace add <gốc repo>
 claude plugin install agent-executive-team@agent-executive-team
 ```
 
-Từ GitHub: `claude plugin marketplace add ducnguyen221/agent-executive-team` rồi `claude plugin install agent-executive-team@agent-executive-team`. Thử khi đang sửa repo, không cài: `claude --plugin-dir <gốc repo>`. Skill hiện với tên `agent-executive-team:chief-of-staff`.
+Từ GitHub: `claude plugin marketplace add OPC-VN/agent-executive-team` rồi `claude plugin install agent-executive-team@agent-executive-team`. Thử khi đang sửa repo, không cài: `claude --plugin-dir <gốc repo>`. Skill hiện với tên `agent-executive-team:chief-of-staff`.
 
 **Codex.** Đóng ứng dụng Codex desktop trước khi cài, vì lệnh ghi cấu hình của Codex (lệnh `codex plugin` khác nhau theo phiên bản, xem `codex plugin --help`):
 
